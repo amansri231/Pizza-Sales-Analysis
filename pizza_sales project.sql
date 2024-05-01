@@ -90,7 +90,7 @@ SELECT
 FROM
     pizza_types
 GROUP BY category;
-/* The distribution of Chicken, Classic, Supreme, and Veggie pizzas are 6,8,9, and 9 respectively. */
+/* The category-wise distribution of Chicken, Classic, Supreme, and Veggie pizzas are 6,8,9, and 9 respectively. */
 
 /* Group the orders by date and calculate the average number of pizzas ordered per day. */
 SELECT 
@@ -157,7 +157,7 @@ from order_details join pizzas on
 join orders on
  orders.order_id=order_details.order_id
  group by orders.order_date) as sales;
-/* The cumulative revenue generated over time increases along with order date. */
+/* The cumulative revenue generated over time increases along with the order date. */
 
 /* Determine the top 3 most ordered pizza types based on revenue for each pizza category. */
 select name, revenue from 
