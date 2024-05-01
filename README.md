@@ -26,3 +26,5 @@ revenue is The Thai Chicken Pizza.
 10) The percentage contribution of Classic, Supreme, Chicken, and Veggie pizzas
 to total revenue is 26.91, 25.46, 23.96, and 23.68 respectively.
 11) The cumulative revenue generated over time increases along with the order date.
+
+Kindly share your valuable feedback and suggestions for imporving this project to further extent. Thank you so much!
